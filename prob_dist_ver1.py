@@ -74,7 +74,7 @@ class dist:
                 one_day.append("Ch. {0}".format(cnum+1))
                 pnum = self.distNum[cnum][i]
                 for j in range(pnum):
-                        one_day.append(str(self.probList[cnum].pop()))
+                    one_day.append(str(self.probList[cnum].pop()))
                 if pnum < self.ppC[cnum]:
                     one_day.append("")
             self.probDist.append(one_day)
